@@ -9,6 +9,6 @@ app.get("/", function(req, res){
 
 const port = process.env.PORT || 3000;
 const ip = process.env.IP || "0.0.0.0/0";
-app.length(port, function(){
+app.listen(port, function(){
 
 });
